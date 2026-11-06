@@ -7,6 +7,7 @@ Double-click `index.html`, or from this folder run `python3 -m http.server 8000`
 
 ## Before going live
 - Replace `[bracketed]` placeholders (email, phone, address, team, stats, testimonials) in the HTML.
+- Theme: Light/System/Dark switch in the header (js/theme.js; dark palette under `[data-theme=dark]` in css/style.css).
 - Brand colours: navy #002F76, orange #FE7202 (from the official logo; edit the `:root` variables in `css/style.css`).
 - Replace SVG artwork in `assets/images/` with real photos (keep file names or update the `<img>` tags).
 - Swap `https://www.example.com` in `sitemap.xml` and `robots.txt` for your domain.
